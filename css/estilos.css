@@ -1,0 +1,60 @@
+html {
+    background-color: #00c191;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+strong {
+    color: #00b588;
+}
+button {
+    background-color: #09daa6;
+    border: 2px solid#09daa6;
+    padding: 9px;
+}
+button:hover {
+    background-color: #00d09d;
+}
+input#llamadaapi {
+    border: 1px solid #09daa6;
+    padding: 9px;
+}
+.Contenedor {
+    display: table;
+    margin: auto;
+}
+.Contenedor {
+    margin: auto;
+    display: table;
+    box-shadow: -12px -9px 11px 0px #0000000f;
+    background-color: #fff;
+    font-family: system-ui;
+    padding: 20px;
+    -webkit-border-top-left-radius: 22px;
+    -webkit-border-top-right-radius: 22px;
+    -moz-border-radius-topleft: 22px;
+    -moz-border-radius-topright: 22px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;  
+}
+.comment p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+}
+#commentsContainer {
+    box-shadow: 12px 13px 10px 2px #009570;
+    background-color: #fff;
+    font-family: system-ui;
+    border-radius: 23px;
+    padding: 32px;
+    margin: auto;
+    width: 500px;
+}
